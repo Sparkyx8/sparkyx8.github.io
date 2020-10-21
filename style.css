@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("images/background.jpg");
+}
+#header {
+	width: 400px;
+	height: 842px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "Verdana";
+	margin: -50px 0 0 0;
+}
+img {
+	margin: 100px 100px 0 100px;
+	position: relative;
+	color: white;
+}
+#content1 {
+	float: left;
+	width: 725px;
+	text-align: center;
+}
+#content2 {
+	float: left;
+	width: 725px;
+	text-align: center;
+}
+.column {
+	margin: 500px 0 0 0;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+h1 {
+	font-size: 72px;
+	font-family: '8 bit Arcade In';
+}
+.twoD {
+	margin-top: -375px;
+	position: sticky;
+	color: white;
+	font-size: 22px;
+	font-family: Verdana; 
+}
+.threeD {
+	margin-top: -375px;
+	position: sticky;
+	color: black;
+	font-size: 22px;
+	font-family: Verdana; 
+}
+#content {
+	float: left;
+	width: 1450px;
+	text-align: center;
+}
+.about {
+	max-width: 500px;
+	margin: 100px auto;
+	font-family: Verdana;
+	font-size: 24px;
+	background-color: white; opacity: 0.5;
+	padding: 50px;
+	font-weight: bold;
+	border-radius: 100px;
+}
+.contentHeader {
+	margin: 8px auto;
+	font-size: 36px;
+	font-family: Verdana;
+	color: white;
+}
+.contactInfo {
+	width: 400px;
+	padding: 20px;
+	font-family: Verdana;
+	font-size: 16px;
+	background-color:#82D3B1;
+}
+.contactTitles {
+	color: white;
+	font-family: Verdana;
+	font-size: 24px;
+	margin-right: 300px
+}
+.contentHeader {
+  	overflow: hidden;
+  	text-align: center;
+}
+
+.contentHeader:before,
+.contentHeader:after {
+	background-color: #25DC56;
+ 	content: "";
+  	display: inline-block;
+  	height: 5px;
+  	position: relative;
+  	vertical-align: middle;
+  	width: 50%;
+}
+
+.contentHeader:before {
+  	right: 0.5em;
+  	margin-left: -50%;
+}
+
+.contentHeader:after {
+  	left: 0.5em;
+  	margin-right: -50%;
+}
+.socialLogo {
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin: 0 0 0 0;
+	transform: translateX(-130px);
+}
+.column {
+	transform: translateY(-50px)
+}
+.socialLink {
+	margin: 0 auto;
+}
+.sendButton {
+	background-color:#02022B;
+	color: white;
+	font-family: Verdana;
+	font-size: 18px;
+	width: 100px;
+	height: 30px;
+	transform: translateX(-150px)
+}
+span {
+    display: inline-block;
+	width: 450px; 
+}
+.works {
+	border: solid 10px black;
+	border-radius: 50px;
+    width: 50%;
+	padding: 20px;
+	margin-top: 50px;
+}
+.contentWorks {
+	width: 1450px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
