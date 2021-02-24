@@ -16,14 +16,13 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>WildSpark</title>
+    <title>2D Works</title>
 </head>
 
 <body>
     <header class="mt-0 pt-0">
         <div class="bg-cover clearfix pt-3">
-            <h2 class="logo">WildSpark</h2>
-            
+            <h2 class="logo">2D Works</h2>
 
 
             <input type="text" id="nav-search" class="nav-search mx-auto" name="" class="form-control">
@@ -40,6 +39,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">WORKS</a>
                             </li>
+							<li class="nav-item">
+                                <a class="nav-link" href="Works3D.html">3D WORKS</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="aboutMe.html">ABOUT ME</a>
                             </li>
@@ -52,36 +54,63 @@
             </div>
         </div>
 
-        <div class="row ml-0 mr-0">
-            <div class="col-md-6 pr-0">
-                <div class="card">
-                    <img class="card-img" src="assets/images/2D_Works.jpg" alt="2DWorks" height="825">
-                    <div class="card-img-overlay d-flex align-items-center justify-content-center flex-column">
-                        <p>2D Works</p>
-                        <hr />
-                        <h2>Here I have my 2D Works</h2>
-                        <a href="Works2D.html" class="btn">ENTER</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 pl-0">
-                <div class="card">
-                    <img class="card-img" src="assets/images/3D_Works.jpg" alt="3DWorks" height="825" width="100">
-                    <div class="card-img-overlay d-flex align-items-center justify-content-center flex-column">
-                        <p style="color:black">3D Works</p>
-                        <hr />
-                        <h2 style="color:black">Here I have my 3D Renders</h2>
-                        <a href="Works3D.html" class="btn">ENTER</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
     </header>
 
-    
+    <div class="container-fluid video-player">
+        <div class="container">
+            <div class="screen embed-responsive embed-responsive-16by9">
+                <iframe id="screen" src="assets/works/Hero.gif" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen style="vertical-align: middle;"></iframe>
+            </div>
 
-    <script src="assets/js/popper.min.js"></script>
+            <div class="play-list">
+                <div class="owl-carousel owl-carousel4 owl-theme">
+                    <div>
+                        <div class="card"> <img class="card-img link-img"
+                                data-link="assets/works/Hero.gif" src="assets/works/HeroSmall.gif"
+                                alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card"> <img class="card-img link-img"
+                                data-link="assets/works/Slime.gif" src="assets/works/SlimeSmall.gif"
+                                alt="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card"> <img class="card-img link-img"
+                                data-link="assets/works/Tiles.png" src="assets/works/TilesSmall.png"
+                                alt="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card"> <img class="card-img link-img"
+                                data-link="assets/works/Piplup.gif" src="assets/works/PiplupSmall.gif"
+                                alt="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card"> <img class="card-img link-img"
+                                data-link="assets/works/Prinplup.gif" src="assets/works/PrinplupSmall.gif"
+                                alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+        </div>
+    </div>
+
+
+   <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/jquery-1.12.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
